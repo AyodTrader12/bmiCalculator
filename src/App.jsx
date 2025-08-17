@@ -61,7 +61,7 @@ const App = () => {
      onClick={calculateBmi}
     disabled={!height || !weight}
   className='bg-blue-400 rounded-lg w-full h-[45px] text-white mt-10 flex items-center justify-center gap-5 hover:bg-blue-300 cursor-pointer'> <span><FiActivity size={20}/></span><p className='text-white font-semibold'>Calculate BMI</p></button>
-    <div className="mt-4 text-center">
+    <div className="mt-7 text-center">
           {Bmi && (
             <>
               <p className="text-xl font-semibold">Your BMI is: {Bmi}</p>
