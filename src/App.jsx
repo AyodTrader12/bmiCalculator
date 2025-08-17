@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
    <div className='bg-white w-full h-screen flex items-center justify-center'>
-    <div className='w-[35vw] h-[88vh] bg-white rounded-2xl shadow-2xl max-sm:bg-white max-sm:w-[95vw] p-5 flex-col'>
+    <div className='w-[35vw] h-[84vh] bg-white rounded-2xl shadow-2xl max-sm:bg-white max-sm:w-[95vw] p-5 flex-col'>
       <div className='flex justify-center'><FaCalculator className='text-blue-400' size={35}/></div>
     <h1 className='text-blue-400 uppercase font-bold text-center mt-4'>bmi calculator</h1>
     <p className='mt-3 text-[15px] text-gray-600 text-center'>calculate your Body Mass Index</p>
@@ -60,7 +60,7 @@ const App = () => {
      <button 
      onClick={calculateBmi}
     disabled={!height || !weight}
-  className='bg-blue-400 rounded-lg w-full h-[45px] text-white mt-7 flex items-center justify-center gap-5 hover:bg-blue-300 cursor-pointer'> <span><FiActivity size={20}/></span><p className='text-white font-semibold'>Calculate BMI</p></button>
+  className='bg-blue-400 rounded-lg w-full h-[45px] text-white mt-10 flex items-center justify-center gap-5 hover:bg-blue-300 cursor-pointer'> <span><FiActivity size={20}/></span><p className='text-white font-semibold'>Calculate BMI</p></button>
     <div className="mt-4 text-center">
           {Bmi && (
             <>
