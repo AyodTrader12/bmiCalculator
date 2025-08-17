@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
    <div className='bg-white w-full h-screen flex items-center justify-center'>
-    <div className='w-[35vw] h-[88vh] bg-white rounded-2xl shadow-2xl max-sm:bg-white max-sm:w-[95vw] p-5 flex-col'>
+    <div className='w-[35vw] h-[80vh] bg-white rounded-2xl shadow-2xl max-sm:bg-white max-sm:w-[95vw] p-5 flex-col'>
       <div className='flex justify-center'><FaCalculator className='text-blue-400' size={35}/></div>
     <h1 className='text-blue-400 uppercase font-bold text-center mt-4'>bmi calculator</h1>
     <p className='mt-3 text-[15px] text-gray-600 text-center'>calculate your Body Mass Index</p>
@@ -65,7 +65,7 @@ const App = () => {
           {Bmi && (
             <>
               <p className="text-xl font-semibold">Your BMI is: {Bmi}</p>
-              <p className="text-md mt-2 text-black">{category}</p>
+              <p className="text-lg mt-2 ">{category}</p>
             </>
           )}
           {!Bmi && category && (
