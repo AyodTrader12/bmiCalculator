@@ -48,10 +48,10 @@ const App = () => {
     
     <div className='flex flex-col mt-7'>
       <label className='mb-1'>weight (kg)</label>
-      <input 
+      <input ju
       id='weight'
       type="number"
-      placeholder='Enter your height'
+      placeholder='Enter your weight'
       value={weight}
       onChange={(e) => setweight(e.target.value)}
       className='rounded-lg border border-slate-200 w-full h-[45px] p-2'
